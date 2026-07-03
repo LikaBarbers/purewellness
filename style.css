@@ -160,4 +160,157 @@ transform:translateY(-3px);
 box-shadow:0 15px 30px rgba(0,0,0,.15);
 
 }
- 
+/* =========================
+   CATEGORIES
+========================= */
+
+.categories{
+
+padding:100px 0;
+
+background:#fafaf7;
+
+}
+
+.categories h2{
+
+text-align:center;
+
+font-size:42px;
+
+color:#49613b;
+
+margin-bottom:60px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:30px;
+
+}
+
+.card{
+
+background:white;
+
+border-radius:20px;
+
+padding:45px 30px;
+
+text-align:center;
+
+transition:.35s;
+
+cursor:pointer;
+
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+.card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.card{
+
+font-size:60px;
+
+}
+
+.card h3{
+
+margin-top:20px;
+
+font-size:24px;
+
+color:#49613b;
+
+}
+
+/* =========================
+ABOUT
+========================= */
+
+.about{
+
+padding:120px 20px;
+
+text-align:center;
+
+background:white;
+
+}
+
+.about h2{
+
+font-size:48px;
+
+color:#49613b;
+
+margin-bottom:25px;
+
+}
+
+.about p{
+
+max-width:800px;
+
+margin:auto;
+
+font-size:20px;
+
+color:#666;
+
+line-height:1.9;
+
+}
+
+/* =========================
+FOOTER
+========================= */
+
+footer{
+
+background:#49613b;
+
+color:white;
+
+padding:70px 0;
+
+margin-top:80px;
+
+}
+
+.footer{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:40px;
+
+}
+
+.footer h3,
+.footer h4{
+
+margin-bottom:20px;
+
+}
+
+.footer p{
+
+line-height:1.8;
+
+opacity:.9;
+
+} 
