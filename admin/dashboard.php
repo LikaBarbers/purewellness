@@ -1,4 +1,30 @@
 <?php
+
+session_start();
+
+if(!isset($_SESSION['admin'])){
+
+header("Location: login.php");
+
+exit;
+
+}
+
+require_once "../includes/db.php";
+
+$totalProducts=$pdo->query("SELECT COUNT(*) FROM products")->fetchColumn();
+
+$totalCategories=$pdo->query("SELECT COUNT(*) FROM categories")->fetchColumn();
+
+$totalOrders=$pdo->query("SELECT COUNT(*) FROM orders")->fetchColumn();
+
+$totalCustomers=$pdo->query("SELECT COUNT(*) FROM customers")->fetchColumn();
+
+include "includes/header.php";
+
+include "includes/sidebar.php";
+
+?><?php
 session_start();
 
 if (!isset($_SESSION['admin'])) {
@@ -110,7 +136,8 @@ Nga ky panel mund të menaxhosh të gjithë dyqanin.
 </p>
 
 </div>
+<?php
 
-</body>
+include "includes/footer.php";
 
-</html>
+?>
