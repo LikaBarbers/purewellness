@@ -1,12 +1,15 @@
-<footer>
+<footer class="bg-dark text-white pt-5 pb-4 mt-5">
 
-<div class="container footer">
+<div class="container">
 
-<div>
+<div class="row">
 
-<h3>Purewellness.al</h3>
+<div class="col-md-4">
 
-<p>
+<img src="assets/images/logo.png"
+height="70">
+
+<p class="mt-3">
 
 Natural Wellness & Skincare
 
@@ -14,9 +17,9 @@ Natural Wellness & Skincare
 
 </div>
 
-<div>
+<div class="col-md-4">
 
-<h4>Kontakt</h4>
+<h5>Kontakt</h5>
 
 <p>
 
@@ -30,15 +33,17 @@ Tiranë, Albania
 
 </div>
 
-<div>
+<div class="col-md-4">
 
-<h4>Copyright</h4>
+<h5>Na Ndiqni</h5>
 
 <p>
 
-© <?php echo date("Y"); ?>
+Instagram<br>
 
-Purewellness.al
+Facebook<br>
+
+TikTok
 
 </p>
 
@@ -46,7 +51,21 @@ Purewellness.al
 
 </div>
 
+<hr>
+
+<div class="text-center">
+
+© <?php echo date('Y'); ?>
+
+Purewellness.al
+
+</div>
+
+</div>
+
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
