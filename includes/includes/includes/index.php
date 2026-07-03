@@ -1,93 +1,137 @@
 <?php
-
 include "includes/header.php";
-
 ?>
 
 <section class="hero">
 
-<div class="hero-content">
+    <div class="hero-content">
 
-<h1>
+        <h1>Natural Wellness Starts Here</h1>
 
-Natural Wellness
+        <p>Premium Wellness & Skincare Products</p>
 
-Starts Here
+        <a href="products.php" class="btn">Shop Now</a>
 
-</h1>
-
-<p>
-
-Premium Wellness & Skincare Products
-
-</p>
-
-<a href="products.php" class="btn">
-
-Shop Now
-
-</a>
-
-</div>
+    </div>
 
 </section>
 
 <section class="categories">
 
-<h2>Shop by Category</h2>
+    <div class="container">
 
-<div class="grid">
+        <h2>Shop by Category</h2>
 
-<div class="card">
+        <div class="grid">
 
-🌿
+            <div class="card">
+                🌿
+                <h3>Skincare</h3>
+            </div>
 
-<h3>Skincare</h3>
+            <div class="card">
+                💊
+                <h3>Wellness</h3>
+            </div>
 
-</div>
+            <div class="card">
+                🧴
+                <h3>Body Care</h3>
+            </div>
 
-<div class="card">
+            <div class="card">
+                💆
+                <h3>Hair Care</h3>
+            </div>
 
-💊
+        </div>
 
-<h3>Wellness</h3>
+    </div>
 
-</div>
+</section>
 
-<div class="card">
+<section class="featured">
 
-🧴
+    <div class="container">
 
-<h3>Body Care</h3>
+        <h2>Featured Products</h2>
 
-</div>
+        <div class="products">
 
-<div class="card">
+            <div class="product-card">
 
-💆
+                <span class="badge">NEW</span>
 
-<h3>Hair Care</h3>
+                <img src="assets/images/product1.jpg" alt="Vitamin C Serum">
 
-</div>
+                <h3>Vitamin C Serum</h3>
 
-</div>
+                <p class="price">2,490 Lek</p>
+
+                <a href="#" class="product-btn">View Product</a>
+
+            </div>
+
+            <div class="product-card">
+
+                <span class="badge sale">SALE</span>
+
+                <img src="assets/images/product2.jpg" alt="Marine Collagen">
+
+                <h3>Marine Collagen</h3>
+
+                <p class="price">3,990 Lek</p>
+
+                <a href="#" class="product-btn">View Product</a>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="assets/images/product3.jpg" alt="Magnesium">
+
+                <h3>Magnesium Complex</h3>
+
+                <p class="price">1,990 Lek</p>
+
+                <a href="#" class="product-btn">View Product</a>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="assets/images/product4.jpg" alt="Sunscreen">
+
+                <h3>SPF 50 Sunscreen</h3>
+
+                <p class="price">2,890 Lek</p>
+
+                <a href="#" class="product-btn">View Product</a>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
 <section class="about">
 
-<h2>Pure Wellness. Pure Beauty.</h2>
+    <div class="container">
 
-<p>
+        <h2>Pure Wellness. Pure Beauty.</h2>
 
-Discover carefully selected wellness and skincare products that help you look and feel your best.
+        <p>
 
-</p>
+            Discover carefully selected wellness and skincare products that help you look and feel your best.
+
+        </p>
+
+    </div>
 
 </section>
 
 <?php
-
 include "includes/footer.php";
-
 ?>
