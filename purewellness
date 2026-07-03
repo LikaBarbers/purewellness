@@ -1,0 +1,33 @@
+purewellness/
+│
+├── index.php
+├── products.php
+├── product.php
+├── cart.php
+├── checkout.php
+├── contact.php
+├── about.php
+│
+├── admin/
+│   ├── login.php
+│   ├── dashboard.php
+│   ├── products.php
+│   ├── orders.php
+│   ├── categories.php
+│   ├── settings.php
+│   └── logout.php
+│
+├── includes/
+│   ├── config.php
+│   ├── db.php
+│   ├── header.php
+│   ├── footer.php
+│   └── functions.php
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   └── uploads/
+│
+└── database.sql
